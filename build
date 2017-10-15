@@ -1,0 +1,5 @@
+#!/bin/sh -e
+export GOPATH=`pwd`
+LNSERVER_ROOT=`pwd`
+cd src
+go build -o $LNSERVER_ROOT/bin/lnserver
